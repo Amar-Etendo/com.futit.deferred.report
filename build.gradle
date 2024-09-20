@@ -1,0 +1,58 @@
+/**
+*   This file was generated automatically by the 'createModuleBuild' task.
+*   Created at: 2024-09-19T17:33:45.643359Z.
+*
+*   WARNING: Do not put your credentials directly in this file.
+*
+*/
+
+group          = "com.futit"
+version        = "1.0.0"
+description    = "Deferred Revenue and Expenses Report"
+ext.artifact   = "deferred.report"
+ext.repository = "https://maven.pkg.github.com/Amar-Etendo/com.futit.deferred.report"
+
+configurations {
+    moduleDependencyContainer
+}
+
+publishing {
+    publications {
+        "com.futit.deferred.report"(MavenPublication) {
+            from components.java
+            groupId    = group
+            artifactId = artifact
+            version    = version
+        }
+    }
+    repositories {
+        maven {
+            url "https://maven.pkg.github.com/Amar-Etendo/com.futit.deferred.report"
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://maven.pkg.github.com/Amar-Etendo/com.futit.deferred.report"
+    }
+    maven {
+        url "https://repo.futit.cloud/repository/maven-releases"
+    }
+    maven {
+        url "https://repo.futit.cloud/repository/maven-public-releases"
+    }
+    maven {
+        url "https://repo.futit.cloud/repository/maven-public-jars"
+    }
+}
+
+/**
+* Declare Java dependencies using 'implementation'
+* Ex: implementation "com.sun.mail:javax.mail:1.6.2"
+*/
+dependencies {
+   implementation('com.etendoerp.platform:etendo-core:[22.1.0, 24.2.6)') 
+
+}
