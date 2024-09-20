@@ -14,7 +14,7 @@
     <dependency>
       <groupId>com.etendoerp.platform</groupId>
       <artifactId>etendo-core</artifactId>
-      <version>[22.1.0, 24.2.6)</version>
+      <version>[22.1.0, 24.3.0)</version>
       <scope>runtime</scope>
       <exclusions>
         <exclusion>

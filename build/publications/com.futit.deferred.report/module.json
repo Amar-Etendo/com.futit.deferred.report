@@ -27,11 +27,11 @@
         {
           "name": "deferred.report-1.0.0.jar",
           "url": "deferred.report-1.0.0.jar",
-          "size": 10631004,
-          "sha512": "c1e5ae022ba539a5b7534b1f6d3354e444249a04260939d9acd3c08b5c039aaeebf08ef3c55c00a9baa174a2514ae43a6fa11380fe3787beaa1786e5599a2233",
-          "sha256": "c6d84873e930a5e4b18fa03e0fe3049934cc2270580645d399a1376872350775",
-          "sha1": "893c30ec1a56b755b6f3716331931a9f24e57643",
-          "md5": "7fe9dec77ab803cf1d1be7fdc372b15e"
+          "size": 10631002,
+          "sha512": "f6e05b56da029b4b27bd40bb15b84549d08b4099153f1c70051d5891136917691701e1134e64578025500a376d77536712650608a9dd218c489f6c3e4033f3b8",
+          "sha256": "176cebe9702795eeb60cbf1e939914f650ea0a25cbded858ff32fd909244e3d6",
+          "sha1": "dc151fce995341358ed6f1d3f049dfeb4af204f6",
+          "md5": "ba6e34333884a43ea3f9323cd2d36afb"
         }
       ]
     },
@@ -49,7 +49,7 @@
           "group": "com.etendoerp.platform",
           "module": "etendo-core",
           "version": {
-            "requires": "[22.1.0, 24.2.6)"
+            "requires": "[22.1.0, 24.3.0)"
           },
           "excludes": [
             {
@@ -67,11 +67,11 @@
         {
           "name": "deferred.report-1.0.0.jar",
           "url": "deferred.report-1.0.0.jar",
-          "size": 10631004,
-          "sha512": "c1e5ae022ba539a5b7534b1f6d3354e444249a04260939d9acd3c08b5c039aaeebf08ef3c55c00a9baa174a2514ae43a6fa11380fe3787beaa1786e5599a2233",
-          "sha256": "c6d84873e930a5e4b18fa03e0fe3049934cc2270580645d399a1376872350775",
-          "sha1": "893c30ec1a56b755b6f3716331931a9f24e57643",
-          "md5": "7fe9dec77ab803cf1d1be7fdc372b15e"
+          "size": 10631002,
+          "sha512": "f6e05b56da029b4b27bd40bb15b84549d08b4099153f1c70051d5891136917691701e1134e64578025500a376d77536712650608a9dd218c489f6c3e4033f3b8",
+          "sha256": "176cebe9702795eeb60cbf1e939914f650ea0a25cbded858ff32fd909244e3d6",
+          "sha1": "dc151fce995341358ed6f1d3f049dfeb4af204f6",
+          "md5": "ba6e34333884a43ea3f9323cd2d36afb"
         }
       ]
     },
@@ -88,10 +88,10 @@
           "name": "deferred.report-1.0.0-sources.jar",
           "url": "deferred.report-1.0.0-sources.jar",
           "size": 5100,
-          "sha512": "bb8d067b0517f2c46765cbb82d3489cc76f001fcc6e49674c4242e58cbc93688a5b243c1b6dceae724735c5e93c8c020cdf089ed3c38cdad5b290b5d7fdfea63",
-          "sha256": "6406f0592f454457e8077c15fa1f643458b36f6a356df32d06353bb01c49122f",
-          "sha1": "984a0a5e3a0d1bbceeebef730d18633253016212",
-          "md5": "03bd1ceba11cdf78f7a6692c35e7d6aa"
+          "sha512": "23a0721997183ea41b057d2ee394b67cdd23a2753490e76eb0cf6ca419cd7eae20640cbd6cd8b123ea8de61de9e0a2c58351d914ade0a2d54ba0e441537a033c",
+          "sha256": "1a9a9b158b089e51b004266707379c77c526f283f008569431905f1103b1f5b5",
+          "sha1": "d131a1a02023bf5785d0f603d3cac1da6872d3e7",
+          "md5": "02643051237421c9e8601d38b9a31afb"
         }
       ]
     }

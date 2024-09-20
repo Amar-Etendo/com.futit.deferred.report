@@ -1,6 +1,6 @@
 /**
 *   This file was generated automatically by the 'createModuleBuild' task.
-*   Created at: 2024-09-19T17:33:45.643359Z.
+*   Created at: 2024-09-20T12:06:32.500449Z.
 *
 *   WARNING: Do not put your credentials directly in this file.
 *
@@ -53,6 +53,6 @@ repositories {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-   implementation('com.etendoerp.platform:etendo-core:[22.1.0, 24.2.6)') 
+   implementation('com.etendoerp.platform:etendo-core:[22.1.0, 24.3.0)') 
 
 }
